@@ -27,21 +27,36 @@ a {
 
 .shelf {
   display: block;
-  box-sizing: content-box;
+  /* box-sizing: content-box; */
   margin: 0 auto;
-  width: 300px;
-  border: solid 1.6em #ECF8F1;
+  width: 330px;
+  border: solid 24px #ECF8F1;
 }
 .cubbie {
   
-  height: 300px;
-  width: 300px;
-  border: solid .8em #ECF8F1;
+  height: 282px;
+  width: 282px;
+  border: solid 12px #ECF8F1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
  }
+
+ .hidden {
+   display: none;
+ }
+
+ .found {
+  display: block;
+  margin: 0 auto;
+  background-color: #26606E;
+  position: fixed;
+  top: 10%;
+  text-align: left;
+  width: 450px;
+  border: solid .8em #ECF8F1;
+}
 
 
 
@@ -54,15 +69,15 @@ a {
 
 @media (min-width: 800px){
   .shelf {
-    width: 600px;
-    height: 600px;
+    width: 612px;
+    height: 612px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
 
   .cubbie{
-    border: solid .8em #ECF8F1;
+    border: solid 12px #ECF8F1;
    
   }
  }
