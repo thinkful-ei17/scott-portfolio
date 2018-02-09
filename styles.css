@@ -17,6 +17,14 @@ header {
    padding: 4em;
 }
 
+a {
+  text-decoration: none;
+  color: #ECF8F1;
+  height: 250px;
+  width: 250px;
+  display: flex;
+}
+
 .shelf {
   display: block;
   box-sizing: content-box;
@@ -25,15 +33,26 @@ header {
   border: solid 1.6em #ECF8F1;
 }
 .cubbie {
-   height: 300px;
-   width: 300px;
-   border: solid .8em #ECF8F1;
-   display: flex;
-   flex-direction: column;
+  
+  height: 300px;
+  width: 300px;
+  border: solid .8em #ECF8F1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
  }
 
 
- @media (min-width: 800px){
+
+
+
+
+
+
+ /* //////MEDIA QUERY FOR LARGER SCREEN/////////// */ 
+
+@media (min-width: 800px){
   .shelf {
     width: 600px;
     height: 600px;

@@ -7,7 +7,10 @@
   <title>A. Scott Tribble</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
+
 <body>
+
   <page>
     <header>
   <h1>A. Scott Tribble</h1>
@@ -17,18 +20,43 @@
 <div></div>
  -->
  <container class='shelf'>
+
   <div class='cubbie'>
-    <a class='about-me' href='#'>About Me</a>
+    <a name='about-me' href='#'>About Me
+      <div class='content' .hidden>
+        <p>
+          I love to build useful objects. I have been doing it my whole life. I've built props for theaters, sets for movies, shelves
+          for books, and violins for musicians. Now, I build web apps for people.
+        </p>
+      </div>
+    </a>
   </div>
+
   <div class='cubbie'>
-    <a class='about-me' href='#'>Projects</a>
+      <a name='projects' href='#'>Projects
+        <div class='content' .hidden>
+        </div>
+      </a>
   </div>
+
   <div class='cubbie'>
-    <a class='about-me' href='#'>Contact</a>
+    <a name='contact' href='#'>Contact
+      <div class='content hidden'>
+      </div>
+    </a>
   </div>
-  <div class='cubbie'></div>
+
+  <div class='cubbie'>
+    <a name='empty' href='#'>Empty
+      <div class='content hidden'>
+      </div>
+    </a>
+  </div>
+
  </container>
+
 </page>
+
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
   <script type='text/javascript' src='index.js'></script>
