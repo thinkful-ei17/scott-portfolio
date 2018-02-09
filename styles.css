@@ -5,11 +5,11 @@ body * {
 page {
   display: block;
   margin: 0;
-  padding: 3em;
+  padding: 1em;
   background-color: #00B7C2;
   color: #ECF8F1;
   width: 100%;
-  height: 100em;
+  /* height: 100em; */
   text-align: center;
 }
 
@@ -20,23 +20,26 @@ header {
 a {
   text-decoration: none;
   color: #ECF8F1;
-  height: 250px;
-  width: 250px;
+  height: 100%;
+  width: 100%;
   display: flex;
 }
 
+
 .shelf {
-  display: block;
-  /* box-sizing: content-box; */
-  margin: 0 auto;
-  width: 330px;
-  border: solid 24px #ECF8F1;
+  margin-bottom: 6em;
+  display: flex;
+  flex-direction: column;
+  margin-left:auto;
+  margin-right: auto;
+  width: 76%;
+  max-width: 300px;
+  border: solid 1.2em #ECF8F1;
 }
 .cubbie {
-  
-  height: 282px;
-  width: 282px;
-  border: solid 12px #ECF8F1;
+  width: 100%;
+  height: 240px;
+  border: solid .6em #ECF8F1;
   display: flex;
   flex-direction: column;
   justify-content: center;
