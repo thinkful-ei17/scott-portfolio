@@ -1,5 +1,6 @@
 body * {
   box-sizing: border-box;
+  border-radius: 2px;
  } 
 
 page {
@@ -9,7 +10,7 @@ page {
   background-color: #00B7C2;
   color: #ECF8F1;
   width: 100%;
-  /* height: 100em; */
+  height: 100em;
   text-align: center;
 }
 
@@ -27,12 +28,11 @@ a {
 
 
 .shelf {
-  margin-bottom: 6em;
   display: flex;
   flex-direction: column;
-  margin-left:auto;
-  margin-right: auto;
+  margin: 3em auto;
   width: 76%;
+  height: auto;
   max-width: 300px;
   border: solid 1.2em #ECF8F1;
 }
@@ -53,12 +53,16 @@ a {
  .found {
   display: block;
   margin: 0 auto;
+  padding: 1em 2em;
   background-color: #26606E;
   position: fixed;
   top: 10%;
+  left: 9%;
   text-align: left;
-  width: 450px;
-  border: solid .8em #ECF8F1;
+  width: 82%;
+  border: solid 1.2em #ECF8F1;
+  box-shadow: .9em 1.2em 1em rgba(38, 96, 110, .5);
+  box-shadow: .9em 1.2em 1em rgba(38, 96, 110, .5);
 }
 
 
@@ -68,19 +72,30 @@ a {
 
 
 
- /* //////MEDIA QUERY FOR LARGER SCREEN/////////// */ 
+ /* ///MEDIA QUERY FOR LARGER SCREEN/////////// */ 
 
-@media (min-width: 800px){
+@media (min-width: 768px){
   .shelf {
-    width: 612px;
-    height: 612px;
+    width: 72%;
+    max-width: 612px;
+    height: 36%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
 
   .cubbie{
+    width: 50%;
+    height: 50%;
     border: solid 12px #ECF8F1;
-   
   }
+
+  .found{
+    
+  }
+ }
+
+ /* ///AND EVEN BIGGER//////////*/
+ @media (min-width: 992px){
+
  }
