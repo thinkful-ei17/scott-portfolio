@@ -63,15 +63,75 @@ Study Group
   get your group
   to study in person
 
+  technologies:
+    -html5
+       fa-html5 [&#xf13b;]
+    -css
+       fa-css3 [&#xf13c;]
+    -react
+      
+    -redux
+    -thunk
+    -trello
+       fa-trello [&#xf181;]
+    -fetch/ajax
+    -enzyme
+    -git
+    -git-hub 
+       fa-github [&#xf09b;]
+    -fetch/ajax
+
+
+
+
 Song Cellar
   store your lyrics.
   find them when you need them.
   https://david-scott-node-capstone.herokuapp.com
 
+  technologies:
+    -front end:
+      -node.js
+      -html5
+      -css
+      -jquery
+      -fetch
+
+    -server
+      -express
+      -node.js
+    
+    -data-persistence
+      -mongodb
+      -mongoose
+      -mlab
+
+    -hosting/deployment:
+      -heroku
+      -git 
+      -github
+      -travis CI
+
+    -testing
+      -mocha
+      -chai
+   
+
+
 Quiz App
   pick a length.
   pick a category.
   answer some questions.
+
+  technologies:
+    -node.js
+    -html5
+    -css
+    -jquery
+    -git
+    -github
+
+  
   https://astribble.github.io/scott-quiz/
 
 
