@@ -49,6 +49,10 @@ h2 {
   margin: 0;
 }
 
+h4 {
+  font-size: 1.7em;
+}
+
 header {
    padding: 2em 0 1em;
 }
@@ -60,7 +64,9 @@ a {
   width: 100%;
   display: flex;
 }
-
+ a:hover, a:focus {
+   color: #EBAC5C;
+ }
 
 .shelf {
   display: flex;
@@ -91,12 +97,14 @@ a {
  }
 
  .found {
-  display: block;
+  display: flex;
+  flex-direction: column;
   margin: 0, auto;
   padding: 1em 2em;
+  font-size: 1.5em;
   background-color: #26606E;
   position: absolute;
-  top: 30%;
+  top: 40%;
   left: 9%;
   text-align: left;
   width: 82%;
@@ -108,9 +116,9 @@ a {
 
 .projects {
   display: flex;
-  flex-direction: column;
-  
+  flex-direction: column; 
 }
+
 img {
   height: 200px;
   width: 200px;
@@ -140,12 +148,19 @@ img {
     border: solid 12px #ECF8F1;
   }
 
-  .found{
-    
-  }
- }
+}
 
  /* ///AND EVEN BIGGER//////////*/
- @media (min-width: 992px){
+ @media (min-width: 1160px){
+    .found{
+      flex-direction: row;
+      justify-content: space-between;
+  }
 
- }
+  .projects {
+    width: 30%;
+  }
+ 
+} 
+
+ 
