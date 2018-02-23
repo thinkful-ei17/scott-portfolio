@@ -104,7 +104,7 @@ a {
   font-size: 1.5em;
   background-color: #26606E;
   position: absolute;
-  top: 40%;
+  top: 12em;
   left: 9%;
   text-align: left;
   width: 82%;
@@ -152,7 +152,7 @@ img {
 
  /* ///AND EVEN BIGGER//////////*/
  @media (min-width: 1160px){
-    .found{
+    #show-projects {
       flex-direction: row;
       justify-content: space-between;
   }
