@@ -122,7 +122,21 @@ a {
 img {
   height: 200px;
   width: 200px;
+  /* margin: 1em; */
 }
+
+.img-link {
+  display: block;
+  height: 200px;
+  width: 200px;
+}
+
+.icon {
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+}
+
 
 
 
@@ -161,6 +175,9 @@ img {
     width: 30%;
   }
  
+    .contact{
+      display: flex;
+    }
 } 
 
  
