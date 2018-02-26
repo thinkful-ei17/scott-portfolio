@@ -2,9 +2,10 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "A. Scott Tribble's Portfolio",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/thinkful-ei17/scott-portfolio/issues"
   },
-  "homepage": "https://github.com/thinkful-ei17/scott-portfolio#readme"
+  "homepage": "https://github.com/thinkful-ei17/scott-portfolio#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
