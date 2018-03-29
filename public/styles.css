@@ -120,15 +120,20 @@ a {
 }
 
 img {
-  height: 200px;
-  width: 200px;
+  width: 100%;
   /* margin: 1em; */
 }
 
 .img-link {
   display: block;
-  height: 200px;
-  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  /* height: 200px; */
+  width: 90%;
+}
+
+.project-title{
+  color: #FFDE32;
 }
 
 .icon {
@@ -166,14 +171,14 @@ img {
 
  /* ///AND EVEN BIGGER//////////*/
  @media (min-width: 1160px){
-    #show-projects {
+    /* #show-projects {
       flex-direction: row;
       justify-content: space-between;
   }
 
   .projects {
     width: 30%;
-  }
+  } */
  
     .contact{
       display: flex;

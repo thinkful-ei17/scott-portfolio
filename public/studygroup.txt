@@ -1,0 +1,6 @@
+Study Group came about as I was looking for a problem in my personal environment to solve.
+My code school is an online program that happens to have many students in the Portland area.  
+People in the program often try to schedule study sessions in Slack, and I thought there could be a better way.
+
+Study Group was built with React and Redux on the front end, 
+MongoDB with Mongoose for storage, and Node.js with Express to connect the two.
