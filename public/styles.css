@@ -136,6 +136,12 @@ img {
   color: #FFDE32;
 }
 
+.repos {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+}
+
 .icon {
   display: inline-block;
   height: 1em;
@@ -165,6 +171,15 @@ img {
     width: 50%;
     height: 50%;
     border: solid 12px #ECF8F1;
+  }
+
+  .project-links {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .repos {
+    padding-left: 1em;
   }
 
 }
