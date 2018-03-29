@@ -16,6 +16,10 @@ body * {
   border-radius: 2px;
  } 
 
+html {
+  background-color: #00B7C2;
+}
+
 page {
   display: block;
   margin: 0;
@@ -25,25 +29,15 @@ page {
   width: 100%;
   height: 100em;
   text-align: center;
-
-
-/* font-family: 'Crimson Text', serif; */
-font-family: 'Halant', serif;
-
-font-family: 'Cabin', sans-serif;
-font-family: 'ABeeZee', sans-serif;
-
+  font-family: 'ABeeZee', sans-serif;
 }
 
 h1 {
-  /* font-family: 'Crimson Text', serif; */
   font-size: 4em;
   margin-bottom: .5em;
-  /* border-bottom: 1px solid #ECF8F1; */
 }
 
 h2 {
-  /* font-family: 'Crimson Text', serif; */
   font-size: 2.5em;
   padding: 0 .5em .5em;
   margin: 0;
@@ -52,7 +46,6 @@ h2 {
 h4 {
   font-size: 1.7em;
   align-self: center;
-  /* margin-bottom: .7em; */
 }
 
 header {
@@ -98,11 +91,11 @@ a {
    display: none;
  }
 
- .found {
+.found {
   display: flex;
   flex-direction: column;
   margin: 0, auto;
-  padding: 1em 2em;
+  padding: 1em 1em;
   font-size: 1.5em;
   background-color: #26606E;
   position: absolute;
@@ -110,13 +103,20 @@ a {
   left: 9%;
   text-align: left;
   width: 82%;
-  /* max-width: 800px; */
   border: solid 1.2em #ECF8F1;
   box-shadow: .9em 1.2em 1em rgba(38, 96, 110, .5);
-  box-shadow: .9em 1.2em 1em rgba(38, 96, 110, .5);
+  box-shadow: .9em 1.2em 1em rgba(28, 138, 165, 0.5);
+
 }
+/* 
+p {
+  display: block;
+  width: 100%;
+} */
 
 .projects {
+  margin-left: 0;
+  margin-right: 0;
   display: flex;
   flex-direction: column; 
 }
