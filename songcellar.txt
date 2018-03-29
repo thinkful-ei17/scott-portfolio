@@ -1,0 +1,9 @@
+I love to pub sing.  There is nothing quite like a rousing chorus of "Cousin Jack."  
+However, sometimes John isn't at the pub to lead that particular song, 
+and while I know the tune, I don't know the words.  
+Also, I'm pretty busy these days and don't get to sings that often...and it would be nice
+to remind myself of some words before I have to sing them in front of people.
+This is what Song Cellar was created for.  It's a place to store song lyrics for quick reference.
+
+Song Cellar was built with an HTML/CSS/Javascript front end utilizing jQuery for DOM manipulation.
+The back end uses Node.js with Express, and the data is stored in a MongoDB with Mongoose models and methods.
