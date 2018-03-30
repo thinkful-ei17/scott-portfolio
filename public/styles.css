@@ -141,6 +141,7 @@ img {
 
 .collaborators {
   display: flex;
+  flex-direction: column;
 }
 
 .collaborators a {
@@ -169,6 +170,9 @@ img {
     font-size: 2em;
   }
 
+  .collaborators {
+  flex-direction: row;
+  }
 }
 
 
