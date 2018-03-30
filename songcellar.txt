@@ -7,3 +7,5 @@ This is what Song Cellar was created for.  It's a place to store song lyrics for
 
 Song Cellar was built with an HTML/CSS/Javascript front end utilizing jQuery for DOM manipulation.
 The back end uses Node.js with Express, and the data is stored in a MongoDB with Mongoose models and methods.
+
+Collaborator:  David

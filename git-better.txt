@@ -1,0 +1,15 @@
+
+When asked to build a learning app, Git jumped to mind immediately as 
+something I wanted to... um... get better at. 
+Git Better uses a spaced-repitition algorithm to make questions you miss 
+show back up more frequently than questions you get right.
+
+Git Better was built with React and Redux on the front-end, Node.js with Express on the back, 
+and everything is stored in a MongoDB database with a Mongoose interface.
+
+Collaborator: Abraham Cuenca https://github.com/YourWebDevGuy
+
+See the app live at: https://cranky-jackson-36d9ef.netlify.com
+View the Client Repo: https://github.com/ASTribble/git-better-spacedRepetition-client
+View the Server Repo: https://github.com/YourWebDevGuy/git-better-spacedRepetition-server
+Server hosted at: http://git-better-server.herokuapp.com
