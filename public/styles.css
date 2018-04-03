@@ -81,7 +81,7 @@ a {
   border: solid .6em #ECF8F1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   box-shadow: .9em 1.2em 1em 1em rgba(38, 96, 110, .5) inset; 
     /* -.9em -1.2em 1em rgba(38, 96, 110, .5) inset; */
@@ -104,7 +104,6 @@ a {
   text-align: left;
   width: 82%;
   border: solid 1.2em #ECF8F1;
-  box-shadow: .9em 1.2em 1em rgba(38, 96, 110, .5);
   box-shadow: .9em 1.2em 1em rgba(28, 138, 165, 0.5);
 
 }
@@ -159,7 +158,54 @@ img {
   width: 1em;
 }
 
+a[name]{
+  color: red;
+  background-color: #ECF8F1; 
+  height: 50%;
+  width: 50%;
+  box-shadow: 1.2em -.2em 1em rgba(38, 96, 110, .5);
+  /* box-shadow: 1.2em 0 1em rgba(28, 138, 165, 0.5); */
+}
 
+a[name='about-me'] {
+  display: flex;
+  align-self: flex-end;
+  margin-right: 2em;
+  border-radius: 50%;
+  /* box-shadow: 1em 0 1em rgba(38, 96, 110, .5); */
+  /* box-shadow: 1.2em 0 1em rgba(28, 138, 165, 0.5); */
+}
+
+a[name='projects'] {
+  display: flex;
+  align-self: flex-start;
+  margin-left: 2em;
+  height: 70%;
+  width: 40%;
+
+}
+
+a[name='contact'] {
+  display: flex;
+  align-self: flex-start;
+  margin-left: 3em;
+}
+
+a[name='resume'] {
+  display: flex;
+  align-self: flex-end;
+  margin-right: 1em;
+  background-color: transparent;
+  border-top: 130px solid  #ECF8F1;
+  border-left: 130px solid transparent;
+  border-right: 2px solid  #ECF8F1;
+  transform-origin: right 124px; 
+  transform: rotate(-45deg); 
+       
+  /* border-bottom: 130px solid blue; */
+  box-shadow: 1em -.5em 1em rgba(38, 96, 110, .5);
+
+}
 
 /* ///////MEDIA QUERY FOR MID-SIZE SCREEN/////// */
 
