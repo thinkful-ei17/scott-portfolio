@@ -1,16 +1,4 @@
-/* font-family: 'Poppins', sans-serif;
-font-family: 'Crimson Text', serif;
-font-family: 'Libre Baskerville', serif;
-font-family: 'Yantramanav', sans-serif;
-font-family: 'Cardo', serif;
-font-family: 'ABeeZee', sans-serif;
-font-family: 'Armata', sans-serif;
-font-family: 'Source Sans Pro', sans-serif;
-font-family: 'Oswald', sans-serif;
-font-family: 'Ubuntu', sans-serif;
-font-family: 'Josefin Sans', sans-serif;
-font-family: 'Cabin', sans-serif;
-font-family: 'Rubik', sans-serif; */
+
 body * {
   box-sizing: border-box;
   border-radius: 2px;
@@ -84,8 +72,6 @@ a {
   justify-content: flex-end;
   align-items: center;
   box-shadow: .9em 1.2em 1em 1em rgba(38, 96, 110, .5) inset; 
-    /* -.9em -1.2em 1em rgba(38, 96, 110, .5) inset; */
-  /* z-index: 1; */
  }
 
  .hidden {
@@ -108,11 +94,7 @@ a {
   box-shadow: .9em 1.2em 1em rgba(28, 138, 165, 0.5);
   z-index: 2;
 }
-/* 
-p {
-  display: block;
-  width: 100%;
-} */
+
 
 .projects {
   margin-left: auto;
@@ -124,14 +106,12 @@ p {
 
 img {
   width: 100%;
-  /* margin: 1em; */
 }
 
 .img-link {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /* height: 200px; */
   width: 90%;
 }
 
@@ -166,8 +146,6 @@ a[name]{
   height: 50%;
   width: 50%;
   box-shadow: 1.2em -.2em 1em rgba(38, 96, 110, .5);
-  /* box-shadow: 1.2em 0 1em rgba(28, 138, 165, 0.5); */
-  /* z-index:0; */
 }
 
 a[name]:hover {
@@ -179,16 +157,14 @@ a[name='about-me'] {
   align-self: flex-end;
   margin-right: 2em;
   padding-left: .5em;
-  padding-top: .3em;
+  padding-top: .5em;
   border-radius: 50%;
-  /* box-shadow: 1em 0 1em rgba(38, 96, 110, .5); */
-  /* box-shadow: 1.2em 0 1em rgba(28, 138, 165, 0.5); */
 }
 
 a[name='projects'] {
   display: flex;
   align-self: flex-start;
-  margin-left: 2em;
+  margin-left: 2.2em;
   padding-left: .3em;
   height: 70%;
   width: 40%;
@@ -226,11 +202,9 @@ a[name='resume'] h3 {
 }  
 
 a[name='resume']:hover {
-  background-color: transparent;
+  /* background-color: transparent; */
   border-top-color:  #EBAC5C;
   border-right-color:  #EBAC5C;
-  /* border-bottom: transparent; */
-  /* border-left: transparent; */
 } 
 
 /* ///////MEDIA QUERY FOR MID-SIZE SCREEN/////// */
@@ -284,14 +258,6 @@ a[name='resume']:hover {
 
  /* ///AND EVEN BIGGER//////////*/
  @media (min-width: 1160px){
-    /* #show-projects {
-      flex-direction: row;
-      justify-content: space-between;
-  }
-
-  .projects {
-    width: 30%;
-  } */
  
     .contact{
       display: flex;
