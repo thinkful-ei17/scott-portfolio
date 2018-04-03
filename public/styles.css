@@ -170,9 +170,9 @@ a[name]{
   /* z-index:0; */
 }
 
-/* a[name]:hover {
+a[name]:hover {
   background-color: #EBAC5C;
-} */
+}
 
 a[name='about-me'] {
   display: flex;
@@ -215,7 +215,7 @@ a[name='resume'] {
 
   transform-origin: right 80px; 
   transform: rotate(-45deg);  
-  box-shadow: 1em -.4em 1em rgba(38, 96, 110, .5) ;
+  box-shadow: 1em -.5em 1em rgba(38, 96, 110, .5) ;
 }
 
 a[name='resume'] h3 {
@@ -226,9 +226,9 @@ a[name='resume'] h3 {
 }  
 
 a[name='resume']:hover {
-  /* background-color: transparent; */
-  border-top:  #EBAC5C;
-  border-right:  #EBAC5C;
+  background-color: transparent;
+  border-top-color:  #EBAC5C;
+  border-right-color:  #EBAC5C;
   /* border-bottom: transparent; */
   /* border-left: transparent; */
 } 
