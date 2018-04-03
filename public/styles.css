@@ -141,6 +141,7 @@ img {
 
 .collaborators {
   display: flex;
+  flex-direction: column;
 }
 
 .collaborators a {
@@ -240,6 +241,9 @@ a[name='resume']:hover {
     font-size: 2em;
   }
 
+  .collaborators {
+  flex-direction: row;
+  }
 }
 
 
