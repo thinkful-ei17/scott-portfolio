@@ -85,7 +85,7 @@ a {
   align-items: center;
   box-shadow: .9em 1.2em 1em 1em rgba(38, 96, 110, .5) inset; 
     /* -.9em -1.2em 1em rgba(38, 96, 110, .5) inset; */
-  z-index: 1;
+  /* z-index: 1; */
  }
 
  .hidden {
@@ -106,7 +106,7 @@ a {
   width: 82%;
   border: solid 1.2em #ECF8F1;
   box-shadow: .9em 1.2em 1em rgba(28, 138, 165, 0.5);
-  z-index: 2;
+  /* z-index: 2; */
 }
 /* 
 p {
@@ -160,19 +160,25 @@ img {
 }
 
 a[name]{
-  color: red;
+  color:  #26606E;
   background-color: #ECF8F1; 
   height: 50%;
   width: 50%;
   box-shadow: 1.2em -.2em 1em rgba(38, 96, 110, .5);
   /* box-shadow: 1.2em 0 1em rgba(28, 138, 165, 0.5); */
-  z-index:0;
+  /* z-index:0; */
 }
+
+/* a[name]:hover {
+  background-color: #EBAC5C;
+} */
 
 a[name='about-me'] {
   display: flex;
   align-self: flex-end;
   margin-right: 2em;
+  padding-left: .5em;
+  padding-top: .3em;
   border-radius: 50%;
   /* box-shadow: 1em 0 1em rgba(38, 96, 110, .5); */
   /* box-shadow: 1.2em 0 1em rgba(28, 138, 165, 0.5); */
@@ -182,6 +188,7 @@ a[name='projects'] {
   display: flex;
   align-self: flex-start;
   margin-left: 2em;
+  padding-left: .3em;
   height: 70%;
   width: 40%;
 
@@ -191,6 +198,7 @@ a[name='contact'] {
   display: flex;
   align-self: flex-start;
   margin-left: 3em;
+  padding-left: .5em;
 }
 
 a[name='resume'] {
@@ -199,16 +207,30 @@ a[name='resume'] {
   margin-right: 2.5em;
   margin-bottom: -.8em;
   background-color: transparent;
+
   border-top: 130px solid  #ECF8F1;
   border-left: 130px solid transparent;
   border-right: 2px solid  #ECF8F1;
+
   transform-origin: right 80px; 
   transform: rotate(-45deg);  
-  z-index: 0;
-  /* border-bottom: 80px solid blue; */
   box-shadow: 1em -.4em 1em rgba(38, 96, 110, .5) ;
-
 }
+
+a[name='resume'] h3 {
+  transform-origin: 130px -180px;
+  transform: rotate(45deg);
+  padding-left: 2.7em;
+  
+}  
+
+a[name='resume']:hover {
+  /* background-color: transparent; */
+  border-top:  #EBAC5C;
+  border-right:  #EBAC5C;
+  /* border-bottom: transparent; */
+  /* border-left: transparent; */
+} 
 
 /* ///////MEDIA QUERY FOR MID-SIZE SCREEN/////// */
 
