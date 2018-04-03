@@ -141,10 +141,12 @@ img {
 }
 
 a[name]{
-  color:  #26606E;
+  color:  rgb(38, 96, 110);
+  font-size: 1.2em;
+  font-weight: bold;
   background-color: #ECF8F1; 
-  height: 50%;
-  width: 50%;
+  height: 52%;
+  width: 52%;
   box-shadow: 1.2em -.2em 1em rgba(38, 96, 110, .5);
 }
 
@@ -167,7 +169,7 @@ a[name='projects'] {
   margin-left: 2.2em;
   padding-left: .3em;
   height: 70%;
-  width: 40%;
+  width: 45%;
 
 }
 
@@ -176,6 +178,7 @@ a[name='contact'] {
   align-self: flex-start;
   margin-left: 3em;
   padding-left: .5em;
+  height: 50%;
 }
 
 a[name='resume'] {
@@ -189,15 +192,15 @@ a[name='resume'] {
   border-left: 130px solid transparent;
   border-right: 2px solid  #ECF8F1;
 
-  transform-origin: right 80px; 
+  transform-origin: right 71px; 
   transform: rotate(-45deg);  
   box-shadow: 1em -.5em 1em rgba(38, 96, 110, .5) ;
 }
 
 a[name='resume'] h3 {
-  transform-origin: 130px -180px;
+  transform-origin: 140px -180px;
   transform: rotate(45deg);
-  padding-left: 2.7em;
+  padding-left: 2em;
   
 }  
 
