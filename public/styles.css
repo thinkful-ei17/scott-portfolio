@@ -119,7 +119,7 @@ img {
   color: #FFDE32;
 }
 
-.collaborators {
+/* .collaborators {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
@@ -128,7 +128,7 @@ img {
 
 .collaborators a {
   padding-left: 1em;
-}
+} */
 
 .project-links {
   display: flex;
@@ -143,7 +143,6 @@ img {
   width: 90%;
   display: flex;
   justify-content: flex-start;
-  flex-wrap: wrap;
 }
 
 .icon {
@@ -266,15 +265,13 @@ a[name='resume']:hover {
 
   .project-links {
     display: flex;
+    flex-direction: row;
     justify-content: flex-start;
+
   }
 
   .project-links a:first-child {
-    color: red;
     margin-right: 2em;
-  }
-  .repos {
-    /* padding-left: 1em; */
   }
 
 }
