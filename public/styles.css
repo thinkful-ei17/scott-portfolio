@@ -87,9 +87,9 @@ a {
   background-color: #26606E;
   position: absolute;
   top: 12em;
-  left: 9%;
+  left: 5%;
   text-align: left;
-  width: 82%;
+  width: 90%;
   border: solid 1.2em #ECF8F1;
   box-shadow: .9em 1.2em 1em rgba(28, 138, 165, 0.5);
   z-index: 2;
@@ -133,7 +133,6 @@ img {
 .project-links {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 
 .project-links p {
