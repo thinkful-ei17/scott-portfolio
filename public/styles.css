@@ -121,6 +121,7 @@ img {
 
 .collaborators {
   display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
   font-size: .8em;
 }
@@ -129,13 +130,21 @@ img {
   padding-left: 1em;
 }
 
-.project-links p {
-  margin-bottom: .2em
+.project-links {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
+
+.project-links p {
+  margin-bottom: .2em;
+}
+
 .repos {
   width: 90%;
   display: flex;
   justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .icon {
@@ -175,7 +184,6 @@ a[name='projects'] {
   height: 70%;
   width: 45%;
   min-width: 103px;
-
 }
 
 a[name='contact'] {
