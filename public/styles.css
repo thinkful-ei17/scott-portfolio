@@ -49,9 +49,10 @@ a {
   width: 100%;
   display: flex;
 }
- a:hover, a:focus {
-   color: #EBAC5C;
- }
+
+a:hover, a:focus {
+  color: #EBAC5C;
+}
 
 .shelf {
   display: flex;
@@ -96,6 +97,14 @@ a {
   z-index: 20;
 }
 
+.close {
+  background: transparent;
+  color: #ECF8F1;
+  border: none;
+  font-size: 2em;
+  display: flex;
+  align-self: flex-end;
+}
 
 .projects {
   margin-left: auto;
@@ -114,6 +123,20 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
+}
+
+.project-links a {
+   color:  #EBAC5C;
+   margin: 0;
+   padding: 0;
+}
+
+.project-links a:visited {
+  color:#C87B5B;
+}
+
+.project-links a:hover {
+  color:#FFDE32;
 }
 
 .project-title{
@@ -143,13 +166,15 @@ img {
   flex-wrap: wrap;
 }
 
-.project-links a {
-   color:  #EBAC5C;
-   margin: 0;
-   padding: 0;
+.resume-link a {
+  color: #EBAC5C;
 }
 
-.project-links a:hover {
+.resume-link a:visited {
+  color:#C87B5B;
+}
+
+.resume-link a:hover {
   color:#FFDE32;
 }
 
@@ -235,6 +260,8 @@ a[name='resume']:hover {
   border-right-color:  #EBAC5C;
 } 
 
+
+
 /* ///////MEDIA QUERY FOR MID-SIZE SCREEN/////// */
 
 @media (min-width: 640px){
@@ -286,6 +313,13 @@ a[name='resume']:hover {
 
   .github-repos a:first-child {
     margin-right: 2em;
+  }
+
+  .resume-link {
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
 }
