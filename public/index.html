@@ -27,7 +27,9 @@
         <div class='cubbie'>
           <a name='about-me' href='#'><h3>About Me</h3></a>
         </div>
+
         <div class='content hidden'>
+          <button class='close' aria-label="Close project modal">&times;</button>
           <h3>About Me:</h3>
             <p>
               I love to build useful objects.
@@ -65,7 +67,7 @@
         </div>
 
         <div class='content hidden' id='show-projects'>
-
+          <button class='close' aria-label="Close project modal">&times;</button>
           <!-- ====================== GIT BETTER =========================================== -->
           <div class='projects'>
             <h4>Git Better</h4>
@@ -249,7 +251,8 @@
         </div>
         
         <div class='content hidden'>
-          <h3>Contact</h3>
+          <button class='close' aria-label="Close project modal">&times;</button>
+          <h3>Contact Me:</h3>
 
           <p>I would love to build a useful thing for you!</p>
           <p>Let's chat about it!</p>
@@ -266,9 +269,9 @@
           </a>
           <!-- <p>https://www.linkedin.com/in/a-scott-tribble/</p> -->   
                       
-          <a href="tel://1-503-908-3970" class='contact'>
+          <a href="mailto:a.scott.tribble@gmail.com?subject=I saw your portfolio and I'd like to talk." class='contact'>
             <img src='./tech-icons/phone-square.png' alt='phone icon' class='icon' id='phone-icon'>
-            <p>talk or text: Please email for phone number</p>
+            <p>talk or text: Please email me for phone number.</p>
           </a>
 
         </div>
@@ -281,10 +284,16 @@
         </div>
         
         <div class='content hidden'>
+          <button class='close' aria-label="Close project modal">&times;</button>
           <h3>Resume</h3>
-          
-          <a href='https://astribble.github.io/resume/'>Link to my HTML resume</a>
-          <a href='./resume.pdf'>Link to my PDF resume</a>
+          <p class='resume-link'>
+            You can view an html version of my resume
+            <a href='https://astribble.github.io/resume/'>here.</a>
+          </p>
+          <p class='resume-link'>
+            You can view a pdf version of my resume
+          <a href='./resume.pdf'>here.</a>
+          </p>
         </div>
 
       </container>
