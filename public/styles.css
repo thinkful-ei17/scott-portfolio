@@ -138,10 +138,19 @@ img {
 
 .project-links p {
   margin-bottom: .2em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .project-links a {
    color:  #EBAC5C;
+   margin: 0;
+   padding: 0;
+}
+
+.project-links a:hover {
+  color:#FFDE32;
 }
 
 .repos {
@@ -275,7 +284,7 @@ a[name='resume']:hover {
     justify-content: flex-start;
   }
 
-  .project-links a:first-child {
+  .github-repos a:first-child {
     margin-right: 2em;
   }
 
