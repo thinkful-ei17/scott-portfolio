@@ -23,7 +23,7 @@ page {
 h1 {
   font-size: 4em;
   margin-bottom: .5em;
-  text-shadow: .1em .1em 12px rgba(38, 96, 110, .7);
+  text-shadow: .1em .1em 12px rgba(38, 96, 110, .8);
 }
 
 h2 {
@@ -62,7 +62,6 @@ a {
   max-width: 300px;
   border: solid 1.2em #ECF8F1;
   box-shadow: 1.2em 0em 2em rgba(38, 96, 110, .5);
-  z-index: 5;
 }
 
 .cubbie {
@@ -74,7 +73,6 @@ a {
   justify-content: flex-end;
   align-items: center;
   box-shadow: .9em 1.2em 1em 1em rgba(38, 96, 110, .5) inset; 
-  z-index: 10;
  }
 
  .hidden {
@@ -140,6 +138,10 @@ img {
 
 .project-links p {
   margin-bottom: .2em;
+}
+
+.project-links a {
+   color:  #EBAC5C;
 }
 
 .repos {
@@ -209,7 +211,6 @@ a[name='resume'] {
   transform-origin: right 72px; 
   transform: rotate(-45deg);  
   box-shadow: 1em -.5em 1em rgba(38, 96, 110, .5);
-   z-index: 1;
 }
 
 a[name='resume'] h3 {
@@ -223,7 +224,6 @@ a[name='resume']:hover {
   background-color: transparent;
   border-top-color:  #EBAC5C;
   border-right-color:  #EBAC5C;
-  z-index: 0
 } 
 
 /* ///////MEDIA QUERY FOR MID-SIZE SCREEN/////// */
@@ -241,6 +241,7 @@ a[name='resume']:hover {
   width: 100%;
   font-size: .8em;
   }
+
 }
 
 
@@ -272,7 +273,6 @@ a[name='resume']:hover {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-
   }
 
   .project-links a:first-child {
