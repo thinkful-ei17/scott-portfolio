@@ -298,6 +298,15 @@ a[name='resume']:hover {
  /* ///MEDIA QUERY FOR LARGER SCREEN/////////// */ 
 
 @media (min-width: 768px){
+  html {
+  background-color: #111132;
+
+}
+  page {
+      background-image: radial-gradient(circle farthest-corner at top right 15em,
+    #00B7C2 37%, #111132 0%);
+ }
+
   .shelf {
     width: 72%;
     max-width: 612px;
