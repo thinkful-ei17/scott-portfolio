@@ -63,7 +63,6 @@ a {
   .link {
     color: #EBAC5C;
   }
-}
 
 a:hover, a:focus {
   color: #EBAC5C;
@@ -93,7 +92,7 @@ a:hover, a:focus {
   box-shadow: .9em 1.2em 1em 1em rgba(17, 17, 50, .25) inset; 
  }
 
- .hidden {
+.hidden {
    display: none;
  }
 
@@ -159,6 +158,20 @@ img {
   color: #FFDE32;
 }
 
+.phone {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1em;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+
+.phone > * {
+  margin-right: 1em;
+  display: flex;
+  flex-direction: row;
+  max-width: 400px;
+}
 
 /* .collaborators {
   display: flex;
@@ -336,6 +349,10 @@ a[name='resume']:hover {
 
   .github-repos a:first-child {
     margin-right: 2em;
+  }
+
+  .phone {
+    flex-direction: row;
   }
 
   .resume-link {
