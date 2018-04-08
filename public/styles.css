@@ -2,10 +2,19 @@
 body * {
   box-sizing: border-box;
   border-radius: 2px;
+ 
  } 
+body {
+  
+}
+page {
+      background-image: radial-gradient(circle farthest-corner at left,
+     #00B7C2 50%,#111132 50%);
+ }
 
 html {
   background-color: #00B7C2;
+
 }
 
 page {
@@ -63,6 +72,7 @@ a:hover, a:focus {
   max-width: 300px;
   border: solid 1.2em #ECF8F1;
   box-shadow: 1.2em 0em 2em rgba(38, 96, 110, .5);
+  box-shadow: 1.2em 0em 2em rgba(17, 17, 50, .25);
 }
 
 .cubbie {
@@ -73,7 +83,8 @@ a:hover, a:focus {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  box-shadow: .9em 1.2em 1em 1em rgba(38, 96, 110, .5) inset; 
+  /* box-shadow: .9em 1.2em 1em 1em rgba(38, 96, 110, .5) inset;  */
+  box-shadow: .9em 1.2em 1em 1em rgba(17, 17, 50, .25) inset; 
  }
 
  .hidden {
@@ -94,6 +105,7 @@ a:hover, a:focus {
   width: 90%;
   border: solid 1.2em #ECF8F1;
   box-shadow: .9em 1.2em 1em rgba(28, 138, 165, 0.5);
+  box-shadow: 1.2em 0em 2em rgba(17, 17, 50, .25);
   z-index: 20;
 }
 
@@ -197,6 +209,7 @@ a[name]{
   height: 52%;
   width: 52%;
   box-shadow: 1.2em -.2em 1em rgba(38, 96, 110, .5);
+  box-shadow: 1.2em 0em 2em rgba(17, 17, 50, .25);
 }
 
 a[name]:hover {
@@ -244,6 +257,7 @@ a[name='resume'] {
   transform-origin: right 72px; 
   transform: rotate(-45deg);  
   box-shadow: 1em -.5em 1em rgba(38, 96, 110, .5);
+  box-shadow: 1.2em 0em 2em rgba(17, 17, 50, .25);
 }
 
 a[name='resume'] h3 {
