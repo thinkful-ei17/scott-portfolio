@@ -300,11 +300,21 @@ a[name='resume']:hover {
 @media (min-width: 768px){
   html {
   background-color: #111132;
+  /* background-color: #00B7C2; */
+  /* background-color: #ECF8F1; */
 
 }
   page {
-      background-image: radial-gradient(circle farthest-corner at top right 15em,
-    #00B7C2 37%, #111132 0%);
+      /* margin-top: 3em; */
+      /* margin-bottom: 4em; */
+      margin-left: auto;
+      margin-right: auto;
+      background-image: 
+      radial-gradient(circle farthest-corner at bottom right,#111132 50%, #00B7C2  0, transparent),
+      radial-gradient(circle farthest-corner at top left 15em,#111132 45em, #00B7C2  0%);
+      /* radial-gradient(farthest-corner at right bottom, #00B7C2 50%, #111132  0%); */
+      max-width: 1500px;
+   
  }
 
   .shelf {
@@ -353,6 +363,27 @@ a[name='resume']:hover {
     .contact{
       display: flex;
     }
+
+    .found {
+      width: 70%;
+      left: 15%;
+      top: 15em;
+    }
+
 } 
+
+@media (min-width: 1500px){
+  page {
+    box-sizing: content-box;
+    margin-top: 3em;
+    margin-bottom: 4em;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    border: 30px solid #ECF8F1;
+  }
+
+
+
+}
 
  
