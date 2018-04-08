@@ -14,17 +14,23 @@ function cubbieListener(){
   });
 }
 
-function contentListener(){
-  $('.content').click(function(){
-    $(this).toggleClass('found');
-  });
-}
+// function contentListener(){
+//   $('.content').click(function(){
+//     $(this).toggleClass('found');
+//   });
+// }
 
+function closeModal(){
+  $('.close').click(function () {
+    $(this).closest('.found').removeClass('found');
+  })
+}
 
 
 
 
 $(() => {
   cubbieListener();
-  contentListener();
+  // contentListener();
+  closeModal();
 });
