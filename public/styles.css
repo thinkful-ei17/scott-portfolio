@@ -48,11 +48,11 @@ a {
   height: 100%;
   width: 100%;
   display: flex;
-}
+} 
 
 a:hover, a:focus {
   color: #EBAC5C;
-}
+} 
 
 .shelf {
   display: flex;
@@ -125,23 +125,22 @@ img {
   width: 90%;
 }
 
-.project-links a {
-   color:  #EBAC5C;
-   margin: 0;
-   padding: 0;
+.link {
+  color:#EBAC5C;
+  text-decoration: none;
+}
+.link:visited {
+  color: #C87B5B;
 }
 
-.project-links a:visited {
-  color:#C87B5B;
-}
-
-.project-links a:hover {
+.link:hover {
   color:#FFDE32;
 }
 
 .project-title{
   color: #FFDE32;
 }
+
 
 /* .collaborators {
   display: flex;
@@ -165,7 +164,7 @@ img {
   flex-direction: row;
   flex-wrap: wrap;
 }
-
+/* 
 .resume-link a {
   color: #EBAC5C;
 }
@@ -176,7 +175,7 @@ img {
 
 .resume-link a:hover {
   color:#FFDE32;
-}
+} */
 
 .repos {
   width: 90%;
@@ -270,13 +269,13 @@ a[name='resume']:hover {
     font-size: 2em;
   }
 
-  .collaborators {
+  /* .collaborators {
   flex-direction: row;
   align-items: center;
   justify-content: center;
   width: 100%;
   font-size: .8em;
-  }
+  } */
 
 }
 
@@ -303,6 +302,7 @@ a[name='resume']:hover {
   .found {
     padding-left: 2em;
     padding-right: 2em;
+    z-index: 20;
   }
 
   .project-links {
