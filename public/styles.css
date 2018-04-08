@@ -2,11 +2,8 @@
 body * {
   box-sizing: border-box;
   border-radius: 2px;
- 
- } 
-body {
-  
 }
+
 page {
       background-image: radial-gradient(circle farthest-corner at left,
      #00B7C2 50%,#111132 50%);
@@ -176,18 +173,6 @@ img {
   flex-direction: row;
   flex-wrap: wrap;
 }
-/* 
-.resume-link a {
-  color: #EBAC5C;
-}
-
-.resume-link a:visited {
-  color:#C87B5B;
-}
-
-.resume-link a:hover {
-  color:#FFDE32;
-} */
 
 .repos {
   width: 90%;
@@ -258,13 +243,13 @@ a[name='resume'] {
   transform: rotate(-45deg);  
   box-shadow: 1em -.5em 1em rgba(38, 96, 110, .5);
   box-shadow: 1.2em 0em 2em rgba(17, 17, 50, .25);
+  box-shadow: none;
 }
 
 a[name='resume'] h3 {
   transform-origin: 140px -180px;
   transform: rotate(45deg);
-  padding-left: 1.6em;
-  
+  padding-left: 1.6em; 
 }  
 
 a[name='resume']:hover {
@@ -298,23 +283,19 @@ a[name='resume']:hover {
  /* ///MEDIA QUERY FOR LARGER SCREEN/////////// */ 
 
 @media (min-width: 768px){
+
   html {
   background-color: #111132;
-  /* background-color: #00B7C2; */
-  /* background-color: #ECF8F1; */
+  }
 
-}
   page {
-      /* margin-top: 3em; */
-      /* margin-bottom: 4em; */
+
       margin-left: auto;
       margin-right: auto;
       background-image: 
-      radial-gradient(circle farthest-corner at bottom right,#111132 50%, #00B7C2  0, transparent),
-      radial-gradient(circle farthest-corner at top left 15em,#111132 45em, #00B7C2  0%);
-      /* radial-gradient(farthest-corner at right bottom, #00B7C2 50%, #111132  0%); */
-      max-width: 1500px;
-   
+        radial-gradient(circle farthest-corner at bottom right,#111132 50%, #00B7C2  0, transparent),
+        radial-gradient(circle farthest-corner at top left 15em,#111132 45em, #00B7C2  0%);
+      max-width: 1500px; 
  }
 
   .shelf {
@@ -326,7 +307,7 @@ a[name='resume']:hover {
     flex-wrap: wrap;
   }
 
-  .cubbie{
+  .cubbie {
     width: 50%;
     height: 50%;
     border: solid 12px #ECF8F1;
@@ -371,13 +352,13 @@ a[name='resume']:hover {
 
 } 
 
+/* //// AND THE BIGGEST OF ALL ////////// */
 @media (min-width: 1500px){
+
   page {
     box-sizing: content-box;
     margin-top: 3em;
     margin-bottom: 4em;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
     border: 30px solid #ECF8F1;
   }
 
