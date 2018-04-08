@@ -88,7 +88,6 @@ a:hover, a:focus {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  /* box-shadow: .9em 1.2em 1em 1em rgba(38, 96, 110, .5) inset;  */
   box-shadow: .9em 1.2em 1em 1em rgba(17, 17, 50, .25) inset; 
  }
 
@@ -123,12 +122,21 @@ a:hover, a:focus {
   align-self: flex-end;
 }
 
+.close:hover{
+  color:#EBAC5C;
+}
+
 .projects {
+  margin-top: 1em;
   margin-left: auto;
   margin-right: auto;
   max-width: 700px;
   display: flex;
   flex-direction: column; 
+}
+
+.projects h4 {
+  margin-top: 0;
 }
 
 img {
