@@ -367,7 +367,6 @@ a[name='resume']:hover {
     .found {
       width: 70%;
       left: 15%;
-      top: 15em;
     }
 
 } 
@@ -382,8 +381,9 @@ a[name='resume']:hover {
     border: 30px solid #ECF8F1;
   }
 
-
-
+  .found {
+    top: 15em;
+  }
 }
 
  
