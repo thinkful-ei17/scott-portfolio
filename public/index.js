@@ -4,7 +4,6 @@
 
 
 
-
 function cubbieListener(){
   $('.cubbie').click(function () {
     if($('.found')){
@@ -14,11 +13,7 @@ function cubbieListener(){
   });
 }
 
-// function contentListener(){
-//   $('.content').click(function(){
-//     $(this).toggleClass('found');
-//   });
-// }
+
 
 function closeModal(){
   $('.close').click(function () {
@@ -28,9 +23,7 @@ function closeModal(){
 
 
 
-
 $(() => {
   cubbieListener();
-  // contentListener();
   closeModal();
 });
