@@ -56,6 +56,15 @@ a {
   display: flex;
 } 
 
+@media only screen {
+  a {
+    color:#EBAC5C;
+  }
+  .link {
+    color: #EBAC5C;
+  }
+}
+
 a:hover, a:focus {
   color: #EBAC5C;
 } 
