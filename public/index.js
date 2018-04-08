@@ -22,7 +22,6 @@ function closeModal(){
 }
 
 
-
 $(() => {
   cubbieListener();
   closeModal();
