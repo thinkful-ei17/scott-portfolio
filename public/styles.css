@@ -88,7 +88,6 @@ a:hover, a:focus {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  /* box-shadow: .9em 1.2em 1em 1em rgba(38, 96, 110, .5) inset;  */
   box-shadow: .9em 1.2em 1em 1em rgba(17, 17, 50, .25) inset; 
  }
 
@@ -121,6 +120,10 @@ a:hover, a:focus {
   font-size: 2em;
   display: flex;
   align-self: flex-end;
+}
+
+.close:hover{
+  color:#EBAC5C;
 }
 
 .projects {
