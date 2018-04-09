@@ -5,7 +5,8 @@
 
 
 function cubbieListener(){
-  $('.cubbie').click(function () {
+  $('.cubbie').click(function (event) {
+    event.stopPropagation();
     if($('.found')){
       $('.found').removeClass('found');
     }  
@@ -16,9 +17,24 @@ function cubbieListener(){
 
 
 function closeModal(){
-  $('.close').click(function () {
+
+
+  $('html').click(function () {
+    if(!$(this).closest('.found').length){
+      $('.found').removeClass('found');
+    }
+  });
+
+    
+  $('.content').click(function(e) {
+    e.stopPropagation();
+  });
+
+
+  $('.close').click(function(){
     $(this).closest('.found').removeClass('found');
-  })
+  });
+
 }
 
 
