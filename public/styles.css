@@ -60,13 +60,17 @@ a {
   a {
     color:#EBAC5C;
   }
+
   .link {
     color: #EBAC5C;
   }
+}
 
 a:hover, a:focus {
   color: #EBAC5C;
 } 
+
+
 
 .shelf {
   display: flex;
@@ -149,6 +153,7 @@ img {
   color:#EBAC5C;
   text-decoration: none;
 }
+
 .link:visited {
   color: #C87B5B;
 }
