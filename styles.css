@@ -19,7 +19,7 @@ page {
   display: block;
   /* margin: 0; */
   padding: 1em;
-  
+
   padding-bottom: 150px;
   background-color: #00B7C2;
   color: #ECF8F1;
@@ -51,7 +51,8 @@ h4 {
 }
 
 header {
-   padding: 2em 0 1em;
+   padding: 2em 0 4em;
+   /* text-align: left; */
 }
 
 a {
@@ -237,8 +238,8 @@ a[name]{
   font-size: 1.2em;
   font-weight: bold;
   background-color: #ECF8F1; 
-  height: 52%;
-  width: 52%;
+  /* height: 52%; */
+  /* width: 52%; */
   box-shadow: 1.2em -.2em 1em rgba(38, 96, 110, .5);
   box-shadow: 1.2em 0em 2em rgba(17, 17, 50, .25);
 }
@@ -248,30 +249,34 @@ a[name]:hover {
 }
 
 a[name='about-me'] {
-  display: flex;
-  align-self: flex-end;
-  margin-right: 2em;
-  padding-left: .3em;
-  padding-top: .5em;
+  /* display: flex;
+  align-self: flex-end; */
+  height: 160px;
+  width: 160px;
+  margin-right: -32px;
+  /* padding-left: .3em; */
+  /* padding-top: .5em; */
   border-radius: 50%;
 }
 
 a[name='projects'] {
-  display: flex;
-  align-self: flex-start;
-  margin-left: 2.2em;
-  padding-left: .3em;
-  height: 70%;
-  width: 45%;
-  min-width: 103px;
+  /* display: flex;
+  align-self: flex-start; */
+  margin-left: -48px;
+  /* padding-left: .3em; */
+  height: 180px;
+  width: 112px;
+  /* min-width: 103px; */
 }
 
 a[name='contact'] {
-  display: flex;
-  align-self: flex-start;
-  margin-left: 3em;
-  padding-left: .5em;
+  /* display: flex;
+  align-self: flex-start; */
+  margin-left: -36px;
+  /* padding-left: .5em; */
   height: 50%;
+  height:132px;
+  width: 172px;
 }
 
 a[name='resume'] {
