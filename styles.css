@@ -280,33 +280,36 @@ a[name='contact'] {
 }
 
 a[name='resume'] {
-  display: flex;
-  align-self: flex-end;
-  margin-right: 2.5em;
-  margin-bottom: -.8em;
+  /* display: flex;
+  align-self: flex-end; */
+  /* margin-right: 2.5em; */
+  /* margin-bottom: -.8em; */
   background-color: transparent;
+  height: 0;
+  width: 0;
+  border-bottom: 176px solid  #ECF8F1;
+  /* border-right: 88px solid transparent; */
+  border-left: 200px solid transparent;
+  margin-right: -32px;
+  /* border-right: 2px solid  #ECF8F1; */
 
-  border-top: 130px solid  #ECF8F1;
-  border-left: 130px solid transparent;
-  border-right: 2px solid  #ECF8F1;
-
-  transform-origin: right 72px; 
-  transform: rotate(-45deg);  
-  box-shadow: 1em -.5em 1em rgba(38, 96, 110, .5);
-  box-shadow: 1.2em 0em 2em rgba(17, 17, 50, .25);
+  /* transform-origin: right 72px;  */
+  /* transform: rotate(-45deg);   */
+  /* box-shadow: 1em -.5em 1em rgba(38, 96, 110, .5); */
+  /* box-shadow: 1.2em 0em 2em rgba(17, 17, 50, .25); */
   box-shadow: none;
 }
 
-a[name='resume'] h3 {
+/* a[name='resume'] h3 {
   transform-origin: 140px -180px;
   transform: rotate(45deg);
   padding-left: 1.6em; 
-}  
+}   */
 
 a[name='resume']:hover {
   background-color: transparent;
-  border-top-color:  #EBAC5C;
-  border-right-color:  #EBAC5C;
+  /* border-left-color:  #EBAC5C; */
+  border-bottom-color:  #EBAC5C;
 } 
 
 
