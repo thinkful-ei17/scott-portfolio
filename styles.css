@@ -7,6 +7,7 @@ body * {
 page {
       background-image: radial-gradient(circle farthest-corner at left,
      #00B7C2 50%,#111132 50%);
+     /* padding-bottom: 100px; */
  }
 
 html {
@@ -16,8 +17,9 @@ html {
 
 page {
   display: block;
-  margin: 0;
+  /* margin: 0; */
   padding: 1em;
+  padding-bottom: 150px;
   background-color: #00B7C2;
   color: #ECF8F1;
   width: 100%;
@@ -72,6 +74,7 @@ a:hover, a:focus {
 } 
 
 .shelf {
+  margin-bottom: 100px;
   display: flex;
   flex-direction: column;
   /* margin: 3em auto; */
@@ -86,6 +89,7 @@ a:hover, a:focus {
   border: solid 20px #ECF8F1;
   box-shadow: 1.2em 0em 2em rgba(38, 96, 110, .5);
   box-shadow: 1.2em 0em 2em rgba(17, 17, 50, .25);
+
 }
 
 .cubbie {
