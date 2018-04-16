@@ -298,7 +298,6 @@ a[name='contact'] {
   align-self: flex-start; */
   margin-left: -36px;
   /* padding-left: .5em; */
-  height: 50%;
   height:132px;
   width: 172px;
 }
@@ -306,7 +305,7 @@ a[name='contact'] {
 a[name='contact'] h3 {
   /* color: orange; */
   position: relative;
-  top: 32px;
+  top: 8px;
   left: 24px;
 }
 
