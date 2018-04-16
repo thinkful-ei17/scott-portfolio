@@ -44,6 +44,10 @@ h2 {
   text-shadow: .1em .05em 12px rgba(17, 17, 50, .25);
 }
 
+h3 {
+  font-size: 2em;
+}
+
 h4 {
   font-family: 'Roboto', sans-serif;
   font-size: 1.7em;
@@ -235,7 +239,7 @@ img {
 
 a[name]{
   color:  rgb(38, 96, 110);
-  font-size: 1.2em;
+  /* font-size: 1.2em; */
   font-weight: bold;
   background-color: #ECF8F1; 
   /* height: 52%; */
@@ -259,14 +263,34 @@ a[name='about-me'] {
   border-radius: 50%;
 }
 
+a[name='about-me'] h3{
+  /* color: blue; */
+  position: relative;
+  top: 16px;
+  left: 8px;
+}
+
+/* a[name='about-me'] h3 {
+  color: red;
+  display: inline-block;
+  width: 300px;
+} */
+
 a[name='projects'] {
   /* display: flex;
   align-self: flex-start; */
   margin-left: -48px;
   /* padding-left: .3em; */
   height: 180px;
-  width: 112px;
+  width: 144px;
   /* min-width: 103px; */
+}
+
+a[name='projects'] h3 {
+  /* color: green; */
+  position: relative;
+  top: 8px;
+  left: 8px;
 }
 
 a[name='contact'] {
@@ -277,6 +301,13 @@ a[name='contact'] {
   height: 50%;
   height:132px;
   width: 172px;
+}
+
+a[name='contact'] h3 {
+  /* color: orange; */
+  position: relative;
+  top: 32px;
+  left: 24px;
 }
 
 a[name='resume'] {
@@ -300,11 +331,14 @@ a[name='resume'] {
   box-shadow: none;
 }
 
-/* a[name='resume'] h3 {
-  transform-origin: 140px -180px;
-  transform: rotate(45deg);
-  padding-left: 1.6em; 
-}   */
+a[name='resume'] h3 {
+  /* color: red; */
+  /* margin-top: 156px;
+  margin-left:  -176px; */
+  position: relative;
+  top: 104px;
+  left: -144px;
+}  
 
 a[name='resume']:hover {
   background-color: transparent;
